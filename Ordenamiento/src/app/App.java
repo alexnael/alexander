@@ -26,7 +26,7 @@ public class App {
 		arrOrdenado = new int[longitud];
 
 		for (int i = 0; i < longitud; i++) {
-			arrNoOrdenado[i] = rn.nextInt(aleatorio) + 1;
+			arrNoOrdenado[i] = rn.nextInt(aleatorio) + 3;
 		}
 		System.out.println("Areglo Desordenado: "
 				+ Arrays.toString(arrNoOrdenado));
